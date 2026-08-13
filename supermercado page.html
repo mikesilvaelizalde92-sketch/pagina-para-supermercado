@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>supermercado online</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+   
+
+    <header class="navbar">
+
+        <div class="logo">
+            🛒 SuperMarket
+        </div>
+
+        <nav class="nav">
+
+            <button class="boton-inicio">
+                Inicio
+            </button>
+
+            <button class="boton-categorias">
+                Categorías
+            </button>
+
+            <button class="boton-productos">
+                Productos
+            </button>
+
+            <button class="boton-ofertas">
+                Ofertas
+            </button>
+
+            <button class="boton-contacto">
+                Contacto
+            </button>
+
+        </nav>
+
+        <button class="boton-carrito">
+
+            🛒 Carrito
+
+            <span id="contador-carrito">
+                0
+            </span>
+
+        </button>
+
+        <button class="boton-menu">
+            ☰
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- INICIO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-texto">
+
+                <span class="etiqueta">
+                    OFERTAS DE LA SEMANA
+                </span>
+
+                <h1>
+                    Todo lo que necesitas
+                    <span>en un solo lugar</span>
+                </h1>
+
+                <p>
+                    Encuentra alimentos, bebidas, productos
+                    de limpieza y mucho más.
+                </p>
+
+                <button class="boton-comprar">
+                    Comprar ahora
+                </button>
+
+            </div>
+
+            <div class="hero-imagen">
+                🛒🥦🍎🥛
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORÍAS -->
+
+        <section class="seccion" id="categorias">
+
+            <div class="titulo-seccion">
+
+                <span>
+                    CATEGORÍAS
+                </span>
+
+                <h2>
+                    Compra por categoría
+                </h2>
+
+            </div>
+
+            <div
+                class="categorias-container"
+                id="categorias-container">
+            </div>
+
+        </section>
+
+
+        <!-- OFERTA -->
+
+        <section class="ofertas">
+
+            <div>
+
+                <span>
+                    OFERTA ESPECIAL
+                </span>
+
+                <h2>
+                    Hasta 30% de descuento
+                </h2>
+
+                <p>
+                    Aprovecha nuestras ofertas.
+                </p>
+
+                <button class="boton-oferta">
+                    Ver ofertas
+                </button>
+
+            </div>
+
+            <div class="oferta-icono">
+                🏷️
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+
+        <section
+            class="seccion"
+            id="productos">
+
+            <div class="titulo-productos">
+
+                <div>
+
+                    <span>
+                        PRODUCTOS
+                    </span>
+
+                    <h2>
+                        Nuestros productos
+                    </h2>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="buscador"
+                    placeholder="🔎 Buscar producto..."
+                >
+
+            </div>
+
+
+            <div
+                class="productos-container"
+                id="productos-container">
+            </div>
+
+        </section>
+
+
+        <!-- CARRITO -->
+
+        <section
+            class="carrito-seccion"
+            id="carrito">
+
+            <div class="titulo-seccion">
+
+                <span>
+                    TU COMPRA
+                </span>
+
+                <h2>
+                    Carrito
+                </h2>
+
+            </div>
+
+
+            <div id="carrito-container">
+            </div>
+
+
+            <div class="total">
+
+                <h3>
+                    Total:
+                    <span id="total">
+                        $0
+                    </span>
+                </h3>
+
+                <div>
+
+                    <button
+                        id="vaciar-carrito"
+                        class="boton-vaciar">
+
+                        Vaciar carrito
+
+                    </button>
+
+                    <button
+                        id="boton-comprar">
+
+                        Finalizar compra
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section
+            class="contacto"
+            id="contacto">
+
+            <div>
+
+                <span>
+                    CONTACTO
+                </span>
+
+                <h2>
+                    Estamos para ayudarte
+                </h2>
+
+                <p>
+                    ¿Tienes alguna pregunta?
+                    Comunícate con nosotros.
+                </p>
+
+            </div>
+
+
+            <div class="contacto-info">
+
+                <p>📍 Calle Principal #123</p>
+
+                <p>📞 +57 300 000 0000</p>
+
+                <p>📧 contacto@supermarket.com</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo">
+            🛒 SuperMarket
+        </div>
+
+        <p>
+            Tu supermercado de confianza.
+        </p>
+
+        <p>
+            © 2026 SuperMarket
+        </p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="funciones.js"></script>
+</body>
+</html>
